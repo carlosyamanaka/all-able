@@ -1,24 +1,23 @@
 :root {
     --cor-de-fundo-nav: transparent;
+    --cor-links-nav: white;
 }
-
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: #FFF;
 }
 
 body {
-    
+    color: #FFF;
 }
 
 header {
-    background-image: url(https://img.freepik.com/fotos-gratis/retrato-de-estudante-sorridente-em-uma-cadeira-de-rodas_23-2148844659.jpg?w=740&t=st=1696128429~exp=1696129029~hmac=b340060572e36ce66d9892dd84bf8cb812f4c8400136da9afa28ede8e2aa1026);
-    background-position: cover;
-    background-repeat: no-repeat;
+    background-image: url(/assets/exmpLanding.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
     height: 100vh;
     
     color: white;
@@ -34,7 +33,7 @@ header {
     width: 2rem;
 }
 
-.itensNav{
+.itensNav {
     display: flex;
     align-items: center;
 }
@@ -69,7 +68,7 @@ header {
     flex-direction: column;
 }
 
-.searchlabel a{
+.searchlabel a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,8 +91,10 @@ header {
     padding: .8rem 1rem;
 }
 
-nav {   
-    color: white;
+nav *{
+    color: var(--cor-links-nav);
+}
+nav {  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -102,35 +103,36 @@ nav {
     position: sticky;
     top: 0;
     left: 0;
-    padding: .8rem 1rem;
+    margin: 0 -18em;
+    padding: 0 18em;
+    height: 4em;
+    width: 100vw;
     border-radius: 0px 0px 5px 5px;
 }
 
-ul{
+.listaLinks {
     list-style: none;
     display: flex;
     gap: 1em;
-    
 }
 
-.lupaPesquisa{
+.lupaPesquisa {
     height: 100%;
 }
 
-.servicos{
+.servicos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.princp{
+.princp {
     min-width: 15%;
     min-height: 20%;
     background-color: red;
     border-radius: 4px;
 }
 
-.itensNav
- a:visited{
-    color: white;
+.containerHeader {
+    margin: 0 18em;
 }
