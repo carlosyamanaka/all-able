@@ -110,7 +110,7 @@ main {
 }
 
 /* Adicionando um media query para ajustar os cards a partir de 400px */
-@media (max-width: 430px) {
+@media (max-width: 450px) {
     .resultado-item {
         flex-basis: 100% !important;
         width: 380px;

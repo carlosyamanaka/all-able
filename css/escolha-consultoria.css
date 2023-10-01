@@ -295,7 +295,7 @@ main {
 }
 
 
-@media (max-width: 430px) {
+@media (max-width: 450px) {
     .resultado-item {
         flex-basis: 100%;
         max-width: 100%;
