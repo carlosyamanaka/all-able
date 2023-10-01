@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Responsiva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 400px) {
+            nav {
+                text-align: center;
+            }
+
+            nav li {
+                display: block;
+                margin: 5px 0;
+            }
+
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título da Página</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <h2>Conteúdo Principal</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget quam quis enim rhoncus malesuada.</p>
+        </main>
+    </div>
+
+    <footer>
+        &copy; 2023 Nome da Sua Empresa
+    </footer>
+</body>
+</html>

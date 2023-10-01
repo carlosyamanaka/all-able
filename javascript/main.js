@@ -13,3 +13,14 @@ function updateElementOnScroll() {
 window.addEventListener('scroll', updateElementOnScroll);
 
 updateElementOnScroll();
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const logoDiv = document.querySelector('.logo');
+
+    logoDiv.addEventListener('click', function () {
+        window.location.href = 'index.html';
+    });
+});

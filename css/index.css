@@ -18,6 +18,7 @@ header {
     background-image: url(/assets/exmpLanding.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     color: white;
 }
@@ -29,7 +30,7 @@ header {
 }
 
 .icon-png {
-    width: 2rem;
+    width: 3rem;
 }
 
 .itensNav {
@@ -101,8 +102,8 @@ nav {
     position: sticky;
     top: 0;
     left: 0;
-    margin: 0 -18em;
-    padding: 0 18em;
+    margin: 0 -15em;
+    padding: 0 2em 0 1em;
     height: 4em;
     width: 100vw;
     border-radius: 0px 0px 5px 5px;
@@ -129,10 +130,17 @@ nav {
     min-height: 20%;
     background-color: red;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 .containerHeader {
-    margin: 0 15em;
+    margin: 0 1em ;
 }
 
 
@@ -177,3 +185,68 @@ nav {
     width: 500px;
     height: 350px;
 }
+
+
+
+.servicos-principais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.princp {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    max-width: calc(33.33% - 20px);
+    text-align: center;
+}
+
+
+
+.sobre-allable {
+    gap: 1em;
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-allable h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sobre-allable p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;   
+
+}
+
+.pcp{
+    text-align: center;
+    padding: 4em 0;
+}
+
+
+@media (max-width: 400px) {
+    .pcp{
+        display: none;
+    }
+}
+
+
+.pcp h2{
+    padding: 0 0 4em 0em;
+}
+
