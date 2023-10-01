@@ -38,6 +38,7 @@ nav {
     display: flex;
     align-items: center;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 .icon-png {
@@ -109,6 +110,11 @@ main {
 
 }
 
+@media (max-width: 1200px) {
+    .servicos{
+        display: none;
+    }
+}
 /* Adicionando um media query para ajustar os cards a partir de 400px */
 @media (max-width: 450px) {
     .resultado-item {

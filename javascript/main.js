@@ -22,5 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     logoDiv.addEventListener('click', function () {
         window.location.href = 'index.html';
+        logoDiv.style.cursor= 'pointer';
     });
 });

@@ -259,7 +259,11 @@ main{
 
 }
 
-
+@media (max-width: 1200px) {
+    .servicos{
+        display: none;
+    }
+}
 .pcp h2{
     padding: 0 0 4em 0em;
 }

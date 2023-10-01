@@ -371,7 +371,11 @@ main {
         width: auto;
     }
 }
-
+@media (max-width: 1200px) {
+    .servicos{
+        display: none;
+    }
+}
 
 footer {
     height: 2em;
