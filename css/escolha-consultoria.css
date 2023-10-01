@@ -188,6 +188,7 @@ main {
     flex-direction: row;
     width: 80%;
     justify-content: space-around;
+    margin-bottom: auto !important;
 }
 
 /*
@@ -385,7 +386,16 @@ footer {
     align-items: center;
     background-color: rgb(0, 0, 0, .7);
     color: white;
+    margin-top: auto !important;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
 .logar{
     text-decoration: none !important;
 }
