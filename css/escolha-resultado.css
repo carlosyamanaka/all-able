@@ -146,3 +146,19 @@ main {
     display: flex;
     gap: 1em;
 }
+
+
+.infos hr{
+    margin: 1em;
+}
+
+
+footer {
+    height: 2em;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, .7);
+    color: white;
+}

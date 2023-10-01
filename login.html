@@ -1,97 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Responsiva</title>
+    <title>all Able</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            background-image: url('https://img.freepik.com/fotos-premium/fechar-o-equipamento-diable-da-cadeira-de-rodas-instalado-no-ponto-de-servico-no-hospital_40313-590.jpg?w=996');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
         }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
+        .login-form {
+            background-color: white;
+            padding: 2.2rem;
+            width: 30vw;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        nav {
-            background-color: #444;
-            text-align: center;
+        #form-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 80%;
             padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            outline: none;
         }
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav li {
-            display: inline;
-            margin: 0 10px;
-        }
-
-        .container {
-            max-width: 100%;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        main {
-            background-color: #fff;
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
+        .login-form input[type="submit"] {
+            width: 100%;
             padding: 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
         }
 
-        @media (max-width: 400px) {
-            nav {
+        .login-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        #form-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        @media(max-width:430px){
+            .login-form{
+                width: 70vw !important;
+            }
+            #form-form h2{
                 text-align: center;
-            }
-
-            nav li {
-                display: block;
-                margin: 5px 0;
-            }
-
-            main {
-                padding: 10px;
             }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Título da Página</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <main>
-            <h2>Conteúdo Principal</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget quam quis enim rhoncus malesuada.</p>
-        </main>
+    <div class="login-form">
+        <h2>Login</h2>
+        <form id="form-form" action="">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
     </div>
-
-    <footer>
-        &copy; 2023 Nome da Sua Empresa
-    </footer>
 </body>
 </html>
