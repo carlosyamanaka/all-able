@@ -26,10 +26,6 @@ nav {
     gap: 1em;
 }
 
-.itensNav {
-    align-self: center;
-}
-
 .itensNav a {
     color: #333;
 }
@@ -55,13 +51,11 @@ main {
 
 .servicos {
     display: flex;
-    background-color: #007BFF;
     width: 100%;
     justify-content: space-between;
 }
 
 .dropbtn {
-    background-color: #007BFF;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -99,74 +93,61 @@ main {
     display: block;
 }
 
-.resultado {
+.aninhado{
+    margin-top: 10em;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    margin: 20px auto;
-}
-
-.resultado-item {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    flex-basis: calc(15% - 20px);
-    text-align: center;
-    transition: transform 0.2s ease-in-out;
-    margin-bottom: 20px;
-}
-
-.resultado-item h2 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.resultado-item p {
-    font-size: 0.9rem;
-    color: #777;
-}
-
-.resultado-item a {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #007BFF;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: background-color 0.2s ease-in-out;
-}
-
-.resultado-item a:hover {
-    background-color: #0056b3;
-}
-
-.resultado-item img {
-    width: 500px;
-    height: 350px;
-}
-
-.pesquisa {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    margin-right: 26rem;
+    align-content: center;
 }
 
-.barra-de-busca {
-    padding: .4rem 1.5rem .4rem .6rem;
-}
-
-.lupa {
-    background-color: rgb(4, 158, 4);
-    padding: .4rem 1rem;
+.escolhido{
     display: flex;
+    flex-direction: row;
+    width: 80%;
 }
 
-.lupaPesquisa {
-    height: 100%;
+.marketing{
+    display: flex;
+    flex-direction: column;[
+        width: 45%;
+    ]
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgAnuncio{
+    width: 80%;
+}
+
+
+
+.opcs ul{
+    list-style: none;
+    display: flex;    
+}
+
+.opcs ul li{
+    padding: .3em 1em;
+    border: solid 1px #ccc;
+}
+
+.sobre{
+    width: 45%;
+    gap: 2em;
+}
+
+.sobre ul{
+    list-style: none;
+}
+
+.perfil{
+    display: flex;
+    gap: 1em;
+}
+
+button{
+    background-color:#ccc ;
 }

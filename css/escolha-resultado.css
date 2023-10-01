@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 nav {   
     display: flex;
     flex-direction: row;
@@ -44,13 +51,11 @@ main {
 
 .servicos {
     display: flex;
-    background-color: #007BFF;
     width: 100%;
     justify-content: space-between;
 }
 
 .dropbtn {
-    background-color: #007BFF;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -86,4 +91,59 @@ main {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.aninhado{
+    margin-top: 10em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.escolhido{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.marketing{
+    display: flex;
+    flex-direction: column;[
+        width: 45%;
+    ]
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgAnuncio{
+    width: 80%;
+}
+
+
+
+.opcs ul{
+    list-style: none;
+    display: flex;    
+}
+
+.opcs ul li{
+    padding: .3em 1em;
+    border: solid 1px #ccc;
+}
+
+.sobre{
+    width: 45%;
+    gap: 1em;
+}
+
+.sobre ul{
+    
+}
+
+.perfil{
+    display: flex;
+    gap: 1em;
 }

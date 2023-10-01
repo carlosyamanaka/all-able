@@ -6,6 +6,7 @@ function updateElementOnScroll() {
     } else {
         navElement.style.setProperty('--cor-de-fundo-nav', 'white');
         navElement.style.setProperty('--cor-links-nav', '#333');
+        navElement.style.setProperty('--globo-icon', '#333');
     } 
 }
 
