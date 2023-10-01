@@ -108,9 +108,8 @@ main {
 
 .marketing{
     display: flex;
-    flex-direction: column;[
-        width: 45%;
-    ]
+    flex-direction: column;
+    width: 45%;
 }
 
 .sobre {
@@ -140,7 +139,7 @@ main {
 }
 
 .sobre ul{
-    
+    list-style: none;
 }
 
 .perfil{

@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+    >
+
     <link rel="stylesheet" href="/css/escolha-consultoria.css">
     <title></title>
 
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img class="icon-png" src="/assets/logo.png" alt="Icone do site">
-            <h2 class="titulo-logo">all Able</h2>
-        </div>
+  <nav>
+    <div class="logo">
+        <img class="icon-png" src="/assets/logo.png" alt="Icone do site">
+        <h2 class="titulo-logo">all Able</h2>
+    </div>
 
-        <div class="itensNav">
-            <ul class="listaLinks">
-                <li>
-                    Portugues
-                </li>
-                <li>
-                    <a href="#" class="logar">
-                        Logar
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="registrar">
-                        Registrar
-                    </a>
-                </li>
-        </ul>
-        <div>
-    </nav>
+    <div class="pesquisa">
+      <input class="barra-de-busca" id="searchMain" type="text" placeholder="Busque por serviços...">
+      <a href="./resultado-pesquisa.html" class="lupa"><img class="lupaPesquisa" src="/assets/lupa.svg"
+          alt="Imagem de uma lupa para fazer a busca de um serviço"></a>
+    </div>
+    
+
+    <div class="itensNav">
+        <ul class="listaLinks">
+          <img class="globo-icon" src="/assets/bx-globe.svg" alt="Imagem de um globo ao lado da linguagem selecionada">
+            <li>
+                Português
+            </li>
+            <li>
+                <a href="#" class="logar">
+                    Logar
+                </a>
+            </li>
+            <li>
+                <a href="#" class="registrar">
+                    Registrar
+                </a>
+            </li>
+    </ul>
+    <div>
+</nav>
     <section class="servicos">
         <div class="dropdown">
           <button class="dropbtn">Consultoria em Acessibilidade</button>
@@ -89,9 +104,16 @@
 
 
       <div class="aninhado">
+        <!-- div para colocar tudo no meio, dava pra ter feito de outro jeito mas n lembrava como -->
         <div class="escolhido">
+          <!-- div geral que agrupa toda a parte importante dessa pagina -->
+          
+          
           <div class="marketing">
+            <!-- infos da venda, vendedor + foto do post de venda -->
+
             <div class="freelancer">
+              <!-- Mostra o nome do post e quem fez o post -->
               <h2>
                 Eu escrevo um post ou arquivo para o seu site em português
               </h2>
@@ -100,37 +122,50 @@
                 <h4>@bmatias</h4>
               </div>
             </div>
-            <img class="imgAnuncio" src="/assets/exmpLanding.jpeg" alt="">
-          </div>
+            <img class="imgAnuncio" src="/assets/retrato-de-estudante-sorridente-em-uma-cadeira-de-rodas.jpg" alt="">
           
+          </div>
+        
           <div class="sobre">
+            <!-- div que apresenta as informações do post, como funciona a venda, sobre oque é etc -->
+            
             <div class="opcs">
+              <!-- tipos de serviço -->
               <ul>
                 <li>Basico</li>
                 <li>Intermediario</li>
                 <li>Avançado</li>
               </ul>
             </div>
-            <div class="sobre">
+
+            <div class="infos">
+              <!-- Informações mais especificas -->
               <h3>
                 Escreva um post ou artigo em português. Máximo de 600 palavras, 2 dias de trabalho
               </h3>
+              
               <ul>
                 <li>Até 600 palavras</li>
                 <li>Pesquisa em tópicos</li>
                 <li>Palavras chaves</li>
                 <li>Referencias e citações</li>
               </ul>
-              <button>
-                Comprar
-              </button>
+
+                <button>
+                  Comprar
+                </button>
+
             </div>
+
             <div class="contato">
               <button>
                 Me contate!
               </button>
             </div>
+
           </div>
+
+
         </div>
       </div>
 </body>
