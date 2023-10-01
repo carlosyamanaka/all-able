@@ -16,10 +16,11 @@ body {
 }
 
 header {
-    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000);
+    background-image: url(https://img.freepik.com/fotos-gratis/retrato-de-estudante-sorridente-em-uma-cadeira-de-rodas_23-2148844659.jpg?w=740&t=st=1696128429~exp=1696129029~hmac=b340060572e36ce66d9892dd84bf8cb812f4c8400136da9afa28ede8e2aa1026);
     background-position: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    
     color: white;
 }
 
@@ -50,6 +51,7 @@ header {
     
 }
 
+
 #principal {
     gap: 1rem;
     display: flex;
@@ -64,13 +66,18 @@ header {
 
 .searchlabel {
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 .searchlabel a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.alignsearch {
+    display: flex;
+    margin-top: 1rem;
 }
 
 .searchlabel #searchMain {
