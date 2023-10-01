@@ -35,7 +35,7 @@ nav {
 
 body {
     background-color: white;
-    margin: 0 18em;
+    margin: 0 4em;
 }
 
 main {
@@ -102,7 +102,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    flex-basis: calc(20% - 20px);
+    flex-basis: calc(15% - 20px);
     text-align: center;
     transition: transform 0.2s ease-in-out;
     margin-bottom: 20px;
@@ -132,4 +132,10 @@ main {
 
 .resultado-item a:hover {
     background-color: #0056b3;
+}
+
+.resultado-item img {
+    width: 500px;
+    height: auto;
+    max-height: 500px;
 }

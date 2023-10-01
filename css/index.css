@@ -1,0 +1,149 @@
+:root {
+    --cor-de-fundo-nav: transparent;
+    --cor-links-nav: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #FFF;
+}
+
+header {
+    background-image: url(/assets/exmpLanding.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+    
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.icon-png {
+    width: 2rem;
+}
+
+.itensNav {
+    display: flex;
+    align-items: center;
+}
+
+.logar {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.registrar {
+    text-decoration: none;
+    font-size: larger;
+}
+
+
+
+
+#principal {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25vh 0 0 1.5rem;
+}
+
+.mensagem-principal {
+    font-size: 40px;
+}
+
+.searchlabel {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchlabel a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+}
+
+.alignsearch {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.searchlabel #searchMain {
+    padding: .8rem;
+    width: 50vw;
+    border: none;
+    height: 100%;
+}
+
+.searchlabel .lupa {
+    background-color: rgb(4, 158, 4);
+    padding: .8rem 1rem;
+}
+
+.corpreta{
+    color: black;
+}
+
+.pesquisa-dupla {
+    display: flex;
+    flex-direction: row;
+}
+
+nav *{
+    color: var(--cor-links-nav);
+}
+nav {  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--cor-de-fundo-nav); 
+    transition: background-color 0.3s;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 0 -18em;
+    padding: 0 18em;
+    height: 4em;
+    width: 100vw;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.listaLinks {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.lupaPesquisa {
+    height: 100%;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.princp {
+    min-width: 15%;
+    min-height: 20%;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.containerHeader {
+    margin: 0 18em;
+}
+
