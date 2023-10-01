@@ -49,6 +49,8 @@ body {
     background-color: white;
     margin: 0 4em;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -378,7 +380,7 @@ main {
     }
 }
 
-footer {
+#footer {
     height: 2em;
     font-size: 1em;
     display: flex;
@@ -388,13 +390,6 @@ footer {
     color: white;
     margin-top: auto !important;
 }
-
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
   
 .logar{
     text-decoration: none !important;
